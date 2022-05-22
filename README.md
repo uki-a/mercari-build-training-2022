@@ -26,10 +26,8 @@ The following icons indicate pointers for
 - [x] **STEP1** Git ([JA](document/step1.ja.md)/[EN](document/step1.en.md))
 - [x] **STEP2** Setup environment ([JA](document/step2.ja.md)
   /[EN](document/step2.en.md))
-- [ ] **STEP3** Develop API ([JA](document/step3.ja.md)
+- [x] **STEP3** Develop API ([JA](document/step3.ja.md)
   /[EN](document/step3.en.md))
-   - [x] Step3-1 ~ Step3-8
-   - [ ] Step3-9
 - [x] **STEP4** Docker ([JA](document/step4.ja.md)/[EN](document/step4.en.md))
 - [x] **STEP5** (Stretch) Frontend ([JA](document/step5.ja.md)
   /[EN](document/step5.en.md))
