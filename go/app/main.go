@@ -17,7 +17,6 @@ import (
 	"encoding/hex"
 	"io"
 	"strconv"
-	// _ "github.com/mattn/go-sqlite3"
 )
 
 const sqlite3_path string = "../db/mercari.sqlite3"
