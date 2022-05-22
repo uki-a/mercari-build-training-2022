@@ -91,8 +91,6 @@ func SerchItems(keyword string) (*sql.Rows, error) {
 	return rows, err
 }
 
-/* 関数定義 終わり */
-
 const (
 	ImgDir = "images"
 )
@@ -238,8 +236,8 @@ func main() {
 	e.GET("/", root)
 	e.POST("/items", addItem)
 	e.GET("/items", getItems)
-	e.GET("/image/:imageFilename", getImg)
 	e.GET("/items/:id", getItemById)
+	e.GET("/image/:imageFilename", getImg)
 	e.GET("/search", searchNameByKeyword)
 
 	// Start server
